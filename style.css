@@ -212,7 +212,7 @@ padding: 10px;
     }
   }
 }
-@media (max-width:351px){
+@media (max-width:400px){
   .content input{
     font-size: 20px;
     border-color: aqua;
@@ -240,10 +240,10 @@ padding: 10px;
         transform: translateY(270%) rotate(90deg) ;
     }
     33%{
-      transform: translateX(235%) translateY(270%) rotate(180deg);
+      transform: translateX(280%) translateY(270%) rotate(180deg);
     }
     66%{
-      transform : translateX(235%) rotate(270deg);
+      transform : translateX(285%) rotate(270deg);
     }
     100%{
       transform: translateX(0) rotate(360deg);
