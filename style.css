@@ -212,3 +212,45 @@ padding: 10px;
     }
   }
 }
+@media (max-width:351px){
+  .content input{
+    font-size: 20px;
+    border-color: aqua;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    padding: 10px;
+    }
+  .content h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: black;
+}
+  .img{
+    width: 100px;
+    height: 70px;
+  }
+  #anim_1{
+    animation: mymove 10s infinite;
+    transition: all 5s linear;
+  }
+  @keyframes mymove {
+    0%{
+        
+        transform: translateY(270%) rotate(90deg) ;
+    }
+    33%{
+      transform: translateX(235%) translateY(270%) rotate(180deg);
+    }
+    66%{
+      transform : translateX(235%) rotate(270deg);
+    }
+    100%{
+      transform: translateX(0) rotate(360deg);
+    }
+  }
+  #main_img{
+    width: 300px;
+    height: 270px;
+  }
+}
